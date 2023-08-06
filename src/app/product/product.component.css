@@ -1,0 +1,26 @@
+.products{
+  text-align: center;
+  background-color: #0cb189;
+  height: 100vh;
+}
+.products{
+  padding-top:5em;
+}
+.cardCss{
+
+  margin:2em 2em;
+}
+
+.mycolor{
+  color:#0cb189;
+}
+.paginate
+{
+position:relative;
+padding-left:26em;
+color:#0cb189;
+}
+.paginate::ng-deep .ngx-pagination .current{
+  background-color: #0cb189;
+  border-radius: 13% 13%;
+}

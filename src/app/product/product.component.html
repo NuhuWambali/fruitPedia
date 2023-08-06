@@ -1,0 +1,26 @@
+<section class="">
+<div class="container py-5">
+  <div class="row">
+      <div class="col-lg-5 m-auto text-center">
+          <h1 style=" color:#cf970a;">What's Trending</h1>
+          <h5  style="color:#0cb189">Be healthy, Eat Fruits</h5>
+      </div>
+  </div>
+  <div class="row mt-4">
+
+          <div *ngFor="let product of products | paginate:{itemsPerPage:8,currentPage:page,totalItems:totalLenght}" class="col-lg-3 text-center mt-2">
+              <div class="card border-0 bg-light mb-2">
+                      <div class="card-body">
+                           <img class="img-fluid" src="{{ product.productImage }}" >
+                      </div>
+               </div>
+                <h6 class="mycolor">{{product.name }}</h6>
+                <p class="mycolor">{{ product.price }}</p>
+          </div>
+        </div>
+
+<div class="paginate py-4">
+      <pagination-controls (pageChange)="page=$event"></pagination-controls>
+</div>
+</div>
+</section>

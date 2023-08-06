@@ -1,0 +1,30 @@
+.navbarCss
+{
+  color:#0cb189;
+  font-family:'Caveat';
+  font-size:3.0em;
+}
+.navbutton{
+  color:#0cb189
+}
+.navbutton:hover{
+  color:#fff;
+}
+
+.nav-link{
+  margin: 0 1.5em;
+  color:#0cb189;
+}
+
+.nav-link:hover{
+  border-bottom:2px solid #0cb189;
+  transition:.2s;
+
+}
+.search{
+  color:#0cb189;
+  border:1px solid #0cb189;
+}
+.search::placeholder{
+  color:#0cb189;
+}

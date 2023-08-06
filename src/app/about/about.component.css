@@ -1,0 +1,24 @@
+
+/* .about{
+
+
+} */
+
+.btn1{
+  height:40px;
+  width:25%;
+  border:none;
+  outline:none;
+  background-color: #0cb189;
+  color:#fff;
+  font-weight:700;
+  border-radius: 50px;
+}
+.btn1:hover{
+  background-color:#fff;
+  color:#0cb189;
+  border:1px solid #0cb189;
+}
+.exprolebtn{
+  color:#fff;
+}

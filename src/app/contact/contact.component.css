@@ -1,0 +1,32 @@
+.formcss{
+  color:#0cb189;
+  border:1px solid #0cb189;
+
+}
+.formcss::placeholder{
+  color:#0cb189;
+}
+
+.btn1{
+  height:37px;
+  width:25%;
+  border:none;
+  outline:none;
+  background-color: #0cb189;
+  color:#fff;
+  font-weight:700;
+  border-radius: 20px;
+}
+.btn1:hover{
+  background-color:#fff;
+  color:#0cb189;
+  border:1px solid #0cb189;
+}
+.exprolebtn{
+  color:#fff;
+}
+.form-control:required
+{
+  background-color: #0cb189;
+  color: #0cb189;
+}
